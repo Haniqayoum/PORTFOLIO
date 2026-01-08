@@ -318,3 +318,193 @@ background-color: #ec004b;
 cursor: pointer;
 }
 
+@media (max-width: 600px) {
+.head {
+        height: 70px; 
+      display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+        padding: 0 10px;
+        background-color: black;
+    }
+
+    .head a {
+        font-size: 14px;
+        padding: 5px 8px;
+        color: white;
+        text-decoration: none;
+    }
+    .header {
+        height: auto; 
+        margin-top: 120px;
+    }
+
+  .home {
+        position: relative;
+        transform: none;
+        display: flex;
+        flex-direction: row; 
+         align-items: center; 
+        justify-content: center;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+         background: url(./assets/c47be32a7f60d1ff378d6e0d05c0cc87.jpg!w700wp) center/cover no-repeat;
+    }
+ .icons i, .resume {
+        display: inline-block;
+    }
+
+        .icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+      h2 {
+          font-size: 20px;
+        margin: 0;
+        color: whitesmoke;
+    }
+
+     h4 {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main img {
+        width: 90%;
+        height: auto;
+    }
+
+    .about-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-text h2,
+    .about-text h4,
+    .about-text p {
+        padding-left: 0;
+    }
+
+    .service {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .box {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .card,
+    .card1 {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .project {
+        height: auto;
+    }
+
+    .project img {
+        width: 90%;
+        height: auto;
+    }
+
+    .project h3 {
+        font-size: 40px;
+    }
+
+    .contact h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .label {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .label form input {
+        width: 80%;
+    }
+     .resume {
+        font-size: 16px;
+        margin-left: 0; /* ek hi row me align */
+        padding: 5px 10px;
+        border: 2px solid red;
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+    }
+
+    .resume:hover {
+        background-color: #ec004b;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+
+    .head a {
+        padding-left: 30px;
+    }
+
+    .home {
+        left: 20px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main img {
+        width: 80%;
+        height: auto;
+    }
+
+    .about-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .box {
+        flex-wrap: wrap;
+    }
+
+    .card,
+    .card1 {
+        margin-bottom: 20px;
+    }
+
+    .contact h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .label {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 993px) {
+
+}
